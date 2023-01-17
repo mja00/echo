@@ -1,0 +1,12 @@
+name: Echo
+version: '${project.version}'
+main: dev.mja00.echo.Echo
+api-version: 1.19
+prefix: Echo
+authors: [ mja00 ]
+description: Adds a command that just echos back to you
+commands:
+  echo:
+    description: Echos back whatever you said
+    usage: /<command>
+    permission: echo.echo
